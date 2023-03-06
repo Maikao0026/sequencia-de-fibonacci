@@ -12,11 +12,11 @@ document.getElementById("verificar").addEventListener("click", () => {
   {
     console.log(
       `O número ${numeroInformado} não pertence à sequência de Fibonacci.`)
-      respostaTxt.innerText = `O número ${numeroInformado} pertence à sequência de Fibonacci.`;
+      respostaTxt.innerText = `O número ${numeroInformado} não pertence à sequência de Fibonacci.`;
   }
  
 
-  
+
 })
 
 function calculaSequenciaFibonacci(num)
